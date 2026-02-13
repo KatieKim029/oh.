@@ -6,8 +6,12 @@ html, body {
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: verdana;
     background-color: lavender;
+}
+
+h1 {
+    font-family: monospace;
 }
 
 button {

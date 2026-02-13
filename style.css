@@ -6,13 +6,15 @@ html, body {
 }
 
 body {
-  font-family: sans-serif;
-  background-color: lavender;
+    font-family: sans-serif;
+    background-color: lavender;
+    text-decoration: none;
 }
 
 button {
   background-color: pink; /* color of the button itself */
   color: mediumvioletred; /* color of text inside the button */
+  text-decoration: none;
   padding: 10px 16px; /* change this to see what happens! (relates to size) */
   border: none;
   border-radius: 6px; /* roundness of the button */
@@ -24,6 +26,7 @@ button {
   height: 80px;
   width: 100%;
   background-color: pink;
+  text-decoration: none;
   overflow: auto;
   display: flex;
   padding: 10px; /* change this and see what happens */

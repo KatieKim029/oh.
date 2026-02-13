@@ -6,9 +6,8 @@ html, body {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     background-color: lavender;
-    text-decoration: none;
 }
 
 button {
@@ -23,10 +22,9 @@ button {
 
 #navbar {
   position: sticky;
-  height: 80px;
+  height: 10%;
   width: 100%;
   background-color: pink;
-  text-decoration: none;
   overflow: auto;
   display: flex;
   padding: 10px; /* change this and see what happens */

@@ -1,7 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 body {
   font-family: sans-serif;
   background-color: lavender;
 }
+
 button {
   background-color: pink; /* color of the button itself */
   color: mediumvioletred; /* color of text inside the button */
@@ -10,9 +19,16 @@ button {
   border-radius: 6px; /* roundness of the button */
   cursor: pointer; 
 }
+
 #navbar {
+  position: sticky;
+  height: 10%;
+  width: 100%;
   background-color: pink;
+  overflow: auto;
+  display: flex;
   padding: 10px; /* change this and see what happens */
+  justify-content: flex-end;
 }
 
 

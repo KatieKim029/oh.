@@ -21,14 +21,18 @@ button {
 }
 
 #navbar {
-  position: sticky;
-  height: 10%;
-  width: 100%;
-  background-color: pink;
-  overflow: auto;
-  display: flex;
-  padding: 10px; /* change this and see what happens */
-  justify-content: flex-end;
+    position: sticky;
+    margin: 0;
+    background-color: pink;
+    height: 10%;
+    width: 100%;
+    color: mediumvioletred;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    padding: 12px;
+    justify-content: flex-end;
 }
 
 

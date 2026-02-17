@@ -29,9 +29,13 @@ button a {
     text-decoration: none;
 }
 
+button a:hover {
+    background-color: #FCCBC2
+}
+
 #navbar {
     position: sticky;
-    margin: 0;
+    margin: 0 !important;
     background-color: pink;
     height: 5%;
     width: 100%;
@@ -52,5 +56,8 @@ button a {
   color: violet;
 }
 
+.picture:hover {
+    width: 450px
+}
 /* if an id (id = "blank"), use #blank to access it in css */
 /* if a class (class = "blank"), use .class to access the whole class and element_name.blank in css, like h1.class or p.class */

@@ -25,6 +25,10 @@ button {
   cursor: pointer; 
 }
 
+button a {
+    text-decoration: none;
+}
+
 #navbar {
     position: sticky;
     margin: 0;
@@ -38,6 +42,14 @@ button {
     display: flex;
     padding: 12px;
     justify-content: flex-end;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+#navbar a:hover {
+  color: violet;
 }
 
 /* if an id (id = "blank"), use #blank to access it in css */

@@ -29,8 +29,8 @@ button a {
     text-decoration: none;
 }
 
-button a:hover {
-    background-color: #FCCBC2
+button:hover {
+    background-color: #F0D6D1
 }
 
 #navbar {

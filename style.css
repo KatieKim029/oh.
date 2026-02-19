@@ -1,8 +1,12 @@
 html, body {
     height: 100%;
-    margin: 10px;
+    margin: 0px;
     padding: 0;
     overflow-x: hidden;
+}
+
+.everythingElse {
+    margin: 10px
 }
 
 body {
@@ -12,7 +16,12 @@ body {
 }
 
 h1, h2 {
-    color: darkmagenta
+    font-family: 'Copperplate', fantasy;
+    color: darkmagenta;
+}
+
+h1 {
+    text-align: center;
 }
 
 button {
@@ -20,9 +29,9 @@ button {
   color: mediumvioletred; /* color of text inside the button */
   text-decoration: none;
   padding: 10px 16px; /* change this to see what happens! (relates to size) */
-  border: none;
+  border: 3px double mediumvioletred;
   border-radius: 6px; /* roundness of the button */
-  cursor: pointer; 
+  cursor: help; 
 }
 
 button a {
@@ -35,6 +44,7 @@ button:hover {
 
 #navbar {
     position: sticky;
+    top: 0;
     margin: 0 !important;
     background-color: pink;
     height: 5%;
@@ -46,6 +56,7 @@ button:hover {
     display: flex;
     padding: 12px;
     justify-content: flex-end;
+    overflow: hidden;
 }
 
 #navbar a {
